@@ -6,7 +6,7 @@ const exphbs  = require('express-handlebars');
 const router = require('./routers')
 const db = require('./config/db')
 const app = express()
-const port = 3000
+const port = 8000
 
 //DB connect
 db.connect()
